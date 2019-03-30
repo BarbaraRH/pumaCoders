@@ -1,0 +1,30 @@
+Registrarse Voluntaria<br>
+
+<input #name type="text" placeholder="Nombre y Apellido" class="form-control mt-3"><br>
+<input #email type="text" placeholder="Correo" class="form-control mt-3"><br>
+<input #password type="text" placeholder="Contraseña" class="form-control mt-3"><br>
+
+<button class="btn btn-success mt-3 mb-3" type="submit"
+  (click)="add(name.value, email.value, password.value)">submit</button>
+
+
+<br><br>
+Registrarse Colegio<br>
+
+<input #nameS type="text" placeholder="Nombre y Apellido" class="form-control mt-3"><br>
+<input #emailS type="text" placeholder="Correo" class="form-control mt-3"><br>
+<input #passwordS type="text" placeholder="Contraseña" class="form-control mt-3"><br>
+
+<button class="btn btn-success mt-3 mb-3" type="submit"
+  (click)="addSchool(nameS.value, emailS.value, passwordS.value)">submit</button>
+
+
+<br><br>
+Loguearse<br>
+
+<input #emailL type="text" placeholder="Correo" class="form-control mt-3"><br>
+<input #passwordL type="text" placeholder="Contraseña" class="form-control mt-3"><br>
+
+<button class="btn btn-success mt-3 mb-3" type="submit" (click)="login(emailL.value, passwordL.value)">submit</button>
+
+<div [innerHtml]="testhtml"></div>
