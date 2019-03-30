@@ -3,16 +3,30 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DatabaseComponent } from './components/database/database.component';
+import { HomeComponent } from './components/home/home.component';
+import { UsComponent } from './components/us/us.component';
+import { VoluntaryComponent } from './components/voluntary/voluntary.component';
+import { RouterModule} from '@angular/router';
+import { FormsModule} from '@angular/forms';
+import { UserComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DatabaseComponent
+    HomeComponent,
+    UsComponent,
+    VoluntaryComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot([
+      {path:'home', component:HomeComponent},
+      {path:'us', component:UsComponent},
+      {path:'voluntary', component:VoluntaryComponent}
+    ]),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
