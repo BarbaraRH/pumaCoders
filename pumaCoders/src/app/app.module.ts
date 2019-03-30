@@ -8,13 +8,15 @@ import { UsComponent } from './components/us/us.component';
 import { VoluntaryComponent } from './components/voluntary/voluntary.component';
 import { RouterModule} from '@angular/router';
 import { FormsModule} from '@angular/forms';
+import { UserComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     UsComponent,
-    VoluntaryComponent
+    VoluntaryComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
