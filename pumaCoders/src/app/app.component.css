@@ -1,0 +1,145 @@
+.navbar{
+    background: #BE318C;
+    border-radius: 0 0 40% 0;  
+    height: 200px;  
+}
+a{
+    color:#ffffff;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+#woman{
+    widows: 600px;
+    height: 400px;
+    margin: -50px 0px 0px 100px;
+    position: relative;
+}
+#textWoman{
+    margin: -85px 300px 0px 0px;
+    float: right;
+    position: relative;
+    width: 350px;
+    color: #ffffff;
+}
+.seeMore{
+    float: right;
+    margin: 20px 300px 0px 0px;
+    color: #5C5C5C;
+}
+.seeMore button{
+    width: 300px;
+    background: #5C5C5C;
+    height: 50px;
+    color: #ffffff !important;
+    border: none;
+}
+.seeMore p {
+    font-size: 13px;
+    color: #ADADAD;
+}
+.buttonLogin{
+    border-radius: 7px;
+    width: 100px;
+    background: #ffffff;
+    border: none;
+    color: #7C4DFF;
+}
+.setion1{
+    margin: 60px 100px 0px 100px;
+    position: relative;
+    color: #858585;
+}
+.setion1 h6{
+    color: #333333 !important;
+    padding-top: 10px;
+}
+.setion1 p{
+    color: #5C5C5C !important;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.setionleft{
+    float: left;
+    width: 35%;
+}
+.setionright{
+    float: right;
+    width: 35%;
+}
+.setion2{
+    margin: 100px 60px 0px 0px;
+    position: relative;
+    background:  #F0F3F4;
+    opacity:0.9; /* Opacidad 10% */
+    width: 100%;
+    border-radius: 20% 0% 0% 0%;
+    height: 250px;
+   
+    float: left;
+}
+.setion2 h2{
+    color: #333333;
+    font-weight: bolder;
+}
+.setion2 p{
+    color: #858585;
+}
+#students{
+    margin: -85px 300px 0px 0px;
+    position: relative;
+}
+.section2left{
+    float: left;
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.setion3{
+    margin: 60px 0px 0px 100px;
+    width: 90%;
+}
+.setion3 h6{
+    color: #858585;
+}
+
+.blogleft{
+    width: 270px;
+    height: 440px;
+    border: 1px solid #858585;
+    border-radius: 16px;
+    float: left;
+    margin: 20px;
+}
+.blogright{
+    width: 270px;
+    height: 440px;
+    border: 1px solid #858585;
+    border-radius: 16px;
+    float: right;
+    margin: 20px;
+}
+footer{
+    margin-top: 500px;
+    background:#FABF2F;
+    height: 300px;
+}
+.icono{
+    margin-left: 10px;
+}
+.footerleft{
+    margin-left: 100px;
+    padding-top: 20px;
+    float: left;
+}
+.pleft{
+    float: left;
+    padding-right: 30px;
+}
+.pright{
+    float: right;
+}
+
